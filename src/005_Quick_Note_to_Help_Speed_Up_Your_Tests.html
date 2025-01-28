@@ -1,0 +1,15 @@
+<p>
+  You can dramatically speed up your tests by updating the package.json file.
+</p>
+<p>In the scripts section, find the following line:</p>
+<p>
+  <code><em>"test:watch": "jest --watch",</em></code>
+</p>
+<p>And change it to:</p>
+<p>
+  <code
+    ><em>"test:watch": "jest --watch </em
+    ><strong><em>--maxWorkers=1",</em></strong></code
+  >
+</p>
+<p>Restart your test runner at your terminal after making this change</p>
